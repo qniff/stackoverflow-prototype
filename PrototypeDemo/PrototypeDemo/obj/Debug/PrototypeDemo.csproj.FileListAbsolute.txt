@@ -1,0 +1,17 @@
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\bin\Debug\PrototypeDemo.exe.config
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\bin\Debug\PrototypeDemo.exe
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\bin\Debug\PrototypeDemo.pdb
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.csprojAssemblyReference.cache
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\MainWindow.g.cs
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\Post.g.cs
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\App.g.cs
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo_MarkupCompile.cache
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo_MarkupCompile.lref
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\MainWindow.baml
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\Post.baml
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.g.resources
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.Properties.Resources.resources
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.csproj.GenerateResource.cache
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.csproj.CoreCompileInputs.cache
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.exe
+C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.pdb
