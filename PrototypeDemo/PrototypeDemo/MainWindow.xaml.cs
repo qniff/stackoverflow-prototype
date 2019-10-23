@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Timers;
+using System.Threading;
 
 namespace PrototypeDemo
 {
@@ -20,15 +22,42 @@ namespace PrototypeDemo
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int authorId;
+        private int questionId;
+        private DataBaseHelper db;
         public MainWindow()
         {
             InitializeComponent();
+            db = new DataBaseHelper();
+            this.questionId = 1;
+            this.authorId = 1;
+            fillQuestion();
+            fillAnswers();
         }
 
-        private void BtnTest_Click(object sender, RoutedEventArgs e)
+        public void fillQuestion()
         {
-            Post p = new Post("Test Title", "Lorem ipsum dolar", DateTime.Now.ToString(), "Test user");
-            stkPosts.Children.Add(p);
+            Question q = db.GetQuestion(questionId);
+            lbTitle.Content = q.Title;
+            this.Title += ": " + q.Title;
+            lbDescription.Content = q.Desription;
+            lbAuthor.Content = db.getAuthor(q.Author);
+            lbDate.Content = q.Date.ToString();
         }
+
+        public void fillAnswers()
+        {
+            stkAnswers.Children.Clear();
+            List<Answer> answers = db.GetAnswers(questionId);
+            foreach (Answer a in answers)
+            {
+                AnswerForm answerForm = new AnswerForm(a.Text, db.getAuthor(a.Author), a.Date);
+                stkAnswers.Children.Add(answerForm);
+            }
+            stkAnswers.Children.Add(new NewAnswerForm(questionId, authorId));
+        }
+
+
     }
-}
+    }
+

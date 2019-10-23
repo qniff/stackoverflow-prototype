@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\obj\Debug\
+C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\
 PrototypeDemo
 none
 false
 DEBUG;TRACE
-C:\Users\Seungeun.heo\source\repos\PrototypeDemo\PrototypeDemo\App.xaml
-21601693200
+C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\App.xaml
+41777779944
 
-6517930136
+12838530473
 13-1505183044
-MainWindow.xaml;Post.xaml;
+AnswerForm.xaml;CommentForm.xaml;MainWindow.xaml;NewAnswerForm.xaml;
 
 False
 
