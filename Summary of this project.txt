@@ -1,0 +1,11 @@
+Summary of this project
+
+Most difficult thing is making comment to every answers and questions.
+Questions and answers have specific id to acccess and we need to get the exact id to add comment.
+So in database we need to access to the question id or answer id and get them into the comment table.
+
+Major change is the tag table that user who want to question adds the tag for easy access the question.
+But When we try to put tag it became complex. And we decided to not to make the tag table because it is not a necessary table and it can make the program heavy.
+
+If we have to complete this project again, we will do some effort to UI. The window form doesn't look fancy. We can use GUI for better appearance of our program.
+Also, we can choose more simple program from the beginning.
