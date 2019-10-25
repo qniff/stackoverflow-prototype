@@ -20,24 +20,32 @@ namespace PrototypeDemo
     /// </summary>
     public partial class AnswerForm : UserControl
     {
-        public AnswerForm(string text, string author, DateTime date)
+        DataBaseHelper db;
+        int answerId, authorId;
+        public AnswerForm(int answerId, string text, int authorId, DateTime date)
         {
             InitializeComponent();
+            db = new DataBaseHelper();
+            this.answerId = answerId;
+            this.authorId = authorId;
+
             txtText.Text = text;
-            lbAuthor.Content = author;
+            lbAuthor.Content = db.getAuthor(authorId);
             lbDate.Content = date.ToString();
-        }
-        public AnswerForm(string text, string author, DateTime date, List<Comment> comments)
-        {
-            InitializeComponent();
-            txtText.Text = text;
-            lbAuthor.Content = author;
-            lbDate.Content = date.ToString();
+            fillComments();
         }
 
-        private void BtnComment_Click(object sender, RoutedEventArgs e)
+        public void fillComments()
         {
-
+            stkComment.Children.Clear();
+            List<Comment> comments = db.GetAnswerComments(answerId);
+            foreach (Comment c in comments)
+            {
+                CommentForm commentForm = new CommentForm(c.Text, db.getAuthor(c.Author), c.Date);
+                stkComment.Children.Add(commentForm);
+            }
+            stkComment.Children.Add(new NewCommentForm(-1, answerId, authorId));
         }
+
     }
 }

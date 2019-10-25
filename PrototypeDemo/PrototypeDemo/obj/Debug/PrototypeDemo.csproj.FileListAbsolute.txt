@@ -36,3 +36,7 @@ C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug
 C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\CommentForm.baml
 C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\NewAnswerForm.g.cs
 C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\NewAnswerForm.baml
+C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\NewCommentForm.g.cs
+C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\NewCommentForm.baml
+C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\Login.g.cs
+C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\Login.baml

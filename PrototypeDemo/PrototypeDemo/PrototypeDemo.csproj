@@ -63,8 +63,14 @@
       <DependentUpon>CommentForm.xaml</DependentUpon>
     </Compile>
     <Compile Include="DataBaseHelper.cs" />
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
     <Compile Include="NewAnswerForm.xaml.cs">
       <DependentUpon>NewAnswerForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewCommentForm.xaml.cs">
+      <DependentUpon>NewCommentForm.xaml</DependentUpon>
     </Compile>
     <Compile Include="Question.cs" />
     <Page Include="AnswerForm.xaml">
@@ -72,6 +78,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CommentForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -89,6 +99,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="NewAnswerForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewCommentForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

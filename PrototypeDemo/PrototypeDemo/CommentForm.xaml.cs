@@ -20,9 +20,13 @@ namespace PrototypeDemo
     /// </summary>
     public partial class CommentForm : UserControl
     {
-        public CommentForm()
+
+        public CommentForm(string text, string author, DateTime date)
         {
             InitializeComponent();
+            lbText.Content = text;
+            lbAuthor.Content = author;
+            lbDate.Content = date.ToString();
         }
     }
 }
