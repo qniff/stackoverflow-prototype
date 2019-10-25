@@ -21,7 +21,6 @@ namespace PrototypeDemo
             this.Desription = description;
             this.Author = author;
             this.Date = date;
-
         }
     }
 }

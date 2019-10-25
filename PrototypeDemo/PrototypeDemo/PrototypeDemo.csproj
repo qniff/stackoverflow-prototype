@@ -66,6 +66,9 @@
     <Compile Include="NewAnswerForm.xaml.cs">
       <DependentUpon>NewAnswerForm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NewQuestionForm.xaml.cs">
+      <DependentUpon>NewQuestionForm.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Question.cs" />
     <Page Include="AnswerForm.xaml">
       <SubType>Designer</SubType>
@@ -89,6 +92,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="NewAnswerForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewQuestionForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -91,5 +91,19 @@ namespace PrototypeDemo
             conn.Close();
         }
 
+        public void AddQuestion(int questionId, int authorId, string titleText, string descriptionText)
+        {
+            cmd = new SqlCommand($@"
+            insert into question (questionId, authorId, title, description, author, date)
+            values (@questionId, @authorId, @titleText, @descriptionText, @author, GETDATE())", conn);
+            cmd.Parameters.AddWithValue("@questionId", questionId);
+            cmd.Parameters.AddWithValue("@authorId", authorId);
+            cmd.Parameters.AddWithValue("@titleText", titleText);
+            cmd.Parameters.AddWithValue("@descriptionText", descriptionText);           
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+        }
+
     }
 }
