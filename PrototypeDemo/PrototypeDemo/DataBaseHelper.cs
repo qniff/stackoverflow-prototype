@@ -91,6 +91,7 @@ namespace PrototypeDemo
             conn.Close();
         }
 
+<<<<<<< HEAD
         public List<Comment> GetQuestionComments(int questionId)
         {
             List<Comment> comments = new List<Comment>();
@@ -143,11 +144,23 @@ namespace PrototypeDemo
             cmd.Parameters.AddWithValue("@answerId", answerId);
             cmd.Parameters.AddWithValue("@text", text);
             cmd.Parameters.AddWithValue("@author", authorId);
+=======
+        public void AddQuestion(int questionId, int authorId, string titleText, string descriptionText)
+        {
+            cmd = new SqlCommand($@"
+            insert into question (questionId, authorId, title, description, author, date)
+            values (@questionId, @authorId, @titleText, @descriptionText, @author, GETDATE())", conn);
+            cmd.Parameters.AddWithValue("@questionId", questionId);
+            cmd.Parameters.AddWithValue("@authorId", authorId);
+            cmd.Parameters.AddWithValue("@titleText", titleText);
+            cmd.Parameters.AddWithValue("@descriptionText", descriptionText);           
+>>>>>>> 84e27e35ec4cc1cdfb3979ec61797d474663c0d1
             conn.Open();
             cmd.ExecuteNonQuery();
             conn.Close();
         }
 
+<<<<<<< HEAD
         public void Register(string username, string password, string first, string last, string title, string description)
         {
             cmd = new SqlCommand($@"
@@ -182,5 +195,7 @@ namespace PrototypeDemo
             return false;
         }
 
+=======
+>>>>>>> 84e27e35ec4cc1cdfb3979ec61797d474663c0d1
     }
 }

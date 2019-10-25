@@ -4,17 +4,26 @@
 winexe
 C#
 .cs
-C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\
 PrototypeDemo
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\App.xaml
 6-77132646
 
 151424392486
 13-1505183044
 AnswerForm.xaml;CommentForm.xaml;Login.xaml;MainWindow.xaml;NewAnswerForm.xaml;NewCommentForm.xaml;
+=======
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\App.xaml
+5-1210132298
+
+14-1486663030
+13-1505183044
+AnswerForm.xaml;CommentForm.xaml;MainWindow.xaml;NewAnswerForm.xaml;NewQuestionForm.xaml;
+>>>>>>> 84e27e35ec4cc1cdfb3979ec61797d474663c0d1
 
 True
 

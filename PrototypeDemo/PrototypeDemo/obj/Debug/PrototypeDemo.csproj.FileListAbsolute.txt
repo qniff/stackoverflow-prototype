@@ -36,7 +36,33 @@ C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug
 C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\CommentForm.baml
 C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\NewAnswerForm.g.cs
 C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\NewAnswerForm.baml
+<<<<<<< HEAD
 C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\NewCommentForm.g.cs
 C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\NewCommentForm.baml
 C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\Login.g.cs
 C:\Users\artjom.leonov\Desktop\system-docs\PrototypeDemo\PrototypeDemo\obj\Debug\Login.baml
+=======
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.csprojAssemblyReference.cache
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\AnswerForm.g.cs
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\CommentForm.g.cs
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\MainWindow.g.cs
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\NewAnswerForm.g.cs
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\NewQuestionForm.g.cs
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\App.g.cs
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo_MarkupCompile.cache
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo_MarkupCompile.lref
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.exe
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.pdb
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\bin\Debug\PrototypeDemo.exe.config
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\bin\Debug\PrototypeDemo.exe
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\bin\Debug\PrototypeDemo.pdb
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\AnswerForm.baml
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\CommentForm.baml
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\MainWindow.baml
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\NewAnswerForm.baml
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\NewQuestionForm.baml
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.g.resources
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.Properties.Resources.resources
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.csproj.GenerateResource.cache
+Z:\Fall 2019\PROG 210 - Systems Analysis and Design\Visual Studio Projects\Assignment 3 - Project Planning and Management\PrototypeDemo\PrototypeDemo\obj\Debug\PrototypeDemo.csproj.CoreCompileInputs.cache
+>>>>>>> 84e27e35ec4cc1cdfb3979ec61797d474663c0d1
