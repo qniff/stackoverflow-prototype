@@ -15,7 +15,7 @@
             <TabItem Header="Login">
                 <Grid Background="#FFE5E5E5">
                     <Label Content="Username" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="241,114,0,0"/>
-                    <TextBox x:Name="tbaPassword" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Margin="323,156,0,0"/>
+                    <PasswordBox x:Name="tbaPassword" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="162" Margin="323,156,0,0"/>
                     <TextBox x:Name="tbaUsername" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Margin="323,118,0,0"/>
                     <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="241,152,0,0"/>
                     <Button Name="btLogin" Background="WhiteSmoke" Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="116" Margin="323,228,0,0" Height="42" Click="BtLogin_Click"/>

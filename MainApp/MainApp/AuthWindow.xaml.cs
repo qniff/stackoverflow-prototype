@@ -67,7 +67,8 @@ namespace MainApp
         private void BtLogin_Click(object sender, RoutedEventArgs e)
         {
             string username = tbaUsername.Text;
-            string password = tbaPassword.Text;
+            string password = tbaPassword.Password;
+            MessageBox.Show(password);
 
             if(db.Login(username, password))
             {
