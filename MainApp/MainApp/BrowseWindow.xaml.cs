@@ -30,10 +30,20 @@ namespace MainApp
             db = new DataBaseHelper();
             this.userId = userId;
             getQuestions();
+
+            System.Windows.Threading.DispatcherTimer dispatcherTimer = new System.Windows.Threading.DispatcherTimer(); dispatcherTimer.Tick += dispatcherTimer_Tick;
+            dispatcherTimer.Interval = new TimeSpan(0, 0, 3);
+            dispatcherTimer.Start();
+        }
+
+        private void dispatcherTimer_Tick(object sender, EventArgs e)
+        {
+            getQuestions();
         }
 
         public void getQuestions()
         {
+            stkMain.Children.Clear();
             List<Question> questions = db.GetQuestions();
             foreach(Question q in questions)
             {

@@ -8,10 +8,10 @@
         Title="Browsing questions" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height=" 1*"/>
-            <RowDefinition Height=" 8*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="413*"/>
         </Grid.RowDefinitions>
-        <ScrollViewer Grid.Column="1" Grid.Row ="1" HorizontalAlignment="Left" Height="372" Margin="20,0,0,0" VerticalAlignment="Top" Width="772" >
+        <ScrollViewer HorizontalAlignment="Left" Height="393" Margin="20,10,0,0" VerticalAlignment="Top" Width="772" Grid.Row="1" >
 
             <StackPanel Name="stkMain">
                 <StackPanel.Resources>
@@ -23,6 +23,5 @@
 
 
         </ScrollViewer>
-        <Label x:Name="lblLabel" Grid.Row="0" Content="Label" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="197" FontSize="16"/>
     </Grid>
 </Window>

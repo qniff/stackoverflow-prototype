@@ -68,7 +68,6 @@ namespace MainApp
         {
             string username = tbaUsername.Text;
             string password = tbaPassword.Password;
-            MessageBox.Show(password);
 
             if(db.Login(username, password))
             {
